@@ -4,7 +4,8 @@ const http = require('http');
 const path = require('path');
 
 const publicPath = path.join(__dirname, '../public');
-const port = process.env.PORT | 3000;
+// const port = process.env.PORT | 3000;
+const port = process.env.PORT;
 console.log('port:', port);
 
 var app = express();
